@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Тестовое задание Ozon</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Progress</div>
+        <div class="progress">
+            <div class="progress-value">0%</div>
+        </div>
+        <div class="tools"></div>
+    </div>
+    <div class="container">
+        <div class="buttons">
+            <div class="value-button"
+                style="margin: 10px auto; display: flex; justify-content: space-around; align-items: center;">
+                <input type="number" id="value-number" class="value-text">
+                <span style="margin: auto 10px;">value</span>
+            </div>
+            <div class="animate-button"
+                style="margin: 10px auto;  display: flex; align-items: center; justify-content: space-around;  ">
+                <label class="switch">
+                    <input id="animCheck" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <span style="margin: auto 10px ;"id="anim-text">anim</span>
+            </div>
+            <div class="hide-button"
+                style="margin: 10px auto; display: flex; align-items: center; justify-content: space-around; ">
+                <label class="switch">
+                    <input id="hideCheck" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <span style="margin: auto 10px ;">hide</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='index.js'></script>
+
+</html>
